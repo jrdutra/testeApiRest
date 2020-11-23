@@ -56,6 +56,7 @@ public class BeerControllerTest {
                 .build();
     }
 
+
     @Test
     void whenPOSTIsCalledThenABeerIsCreated() throws Exception {
         // given

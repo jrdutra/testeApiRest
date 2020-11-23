@@ -26,6 +26,7 @@ public class BeerDTOBuilder {
     @Builder.Default
     private int quantity = 10;
 
+
     @Builder.Default
     private BeerType type = BeerType.LAGER;
 

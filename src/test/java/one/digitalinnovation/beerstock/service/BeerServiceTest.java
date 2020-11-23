@@ -50,6 +50,7 @@ public class BeerServiceTest {
     @InjectMocks
     private BeerService beerService;
 
+
     @Test
     void whenBeerInformedThenItShouldBeCreated() throws BeerAlreadyRegisteredException {
         // given
